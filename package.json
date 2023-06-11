@@ -2,9 +2,11 @@
   "name": "sumit-package",
   "version": "1.0.0",
   "description": "A Library to colorify your console logs",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/sumit1523/Build-Node-Package#readme",
   "devDependencies": {
     "typescript": "^5.1.3"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
