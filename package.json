@@ -1,7 +1,7 @@
 {
   "name": "sumit-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Library to colorify your console logs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/sumit1523/Build-Node-Package.git"
   },
-  "author": "",
+  "author": "sumit",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sumit1523/Build-Node-Package/issues"
   },
-  "homepage": "https://github.com/sumit1523/Build-Node-Package#readme"
+  "homepage": "https://github.com/sumit1523/Build-Node-Package#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
