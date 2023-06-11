@@ -1,0 +1,19 @@
+{
+  "name": "sumit-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumit1523/Build-Node-Package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumit1523/Build-Node-Package/issues"
+  },
+  "homepage": "https://github.com/sumit1523/Build-Node-Package#readme"
+}
